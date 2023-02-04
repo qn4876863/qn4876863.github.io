@@ -1,17 +1,19 @@
 body {
   background-image: url('./imgs/z4081874467908_c42c4e2af234dfcc9b6ae94422c1cd8c.jpg');
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center 0;
   overflow: hidden;
 }
 
 .text {
   position: relative;
-  left: 300px;
-  top: 400px;
+  display: block;
+  width: 100px;
+  left: 0;
+  transform: translateX(40%);
+}
+
+.text svg {
+  background-color: rgba(189, 224, 254, 0.5);
 }
 
 .text--line {
@@ -19,6 +21,24 @@ body {
 }
 .text--line2 {
   font-size: 10em;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url('./imgs/desktop-wallpaper-anime-hyouka-hyouka.jpg');
+  }
+  .text {
+    width: 100px;
+    left: 0;
+    top: 100px;
+  }
+
+  .text--line {
+    font-size: 10em;
+  }
+  .text--line2 {
+    font-size: 12em;
+  }
 }
 
 svg {
