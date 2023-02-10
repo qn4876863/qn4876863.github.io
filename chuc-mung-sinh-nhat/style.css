@@ -1,19 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-image: url('./imgs/z4081874467908_c42c4e2af234dfcc9b6ae94422c1cd8c.jpg');
-  background-size: 100%;
+  background-image: url('./img/happy-birthday-hd-happy-birthday-wallpaper.jpg');
+  background-size: 80%;
+  background-position: center 5%;
   overflow: hidden;
 }
 
 .text {
-  position: relative;
-  display: block;
-  width: 100px;
-  left: 0;
-  transform: translateX(40%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
 }
 
 .text svg {
-  background-color: rgba(189, 224, 254, 0.5);
+  background-color: rgba(63, 20, 101, 0.5);
 }
 
 .text--line {
@@ -25,19 +30,19 @@ body {
 
 @media only screen and (max-width: 768px) {
   body {
-    background-image: url('./imgs/desktop-wallpaper-anime-hyouka-hyouka.jpg');
+    background-image: url('./img/Happy-Birthday-Wallpaper-Images-HD.jpg');
+    background-color: #5d17eb;
+    background-size: 100%;
+    background-position: 0 0;
   }
-  .text {
-    width: 100px;
-    left: 0;
-    top: 100px;
+  .text svg {
   }
 
   .text--line {
-    font-size: 10em;
+    font-size: 8em;
   }
   .text--line2 {
-    font-size: 12em;
+    font-size: 10em;
   }
 }
 
@@ -54,27 +59,27 @@ svg {
   stroke: white;
   stroke-dasharray: 7% 28%;
   stroke-width: 3px;
-  will-change: stroke-dashoffset, stroke-dasharray, padding-top, padding-left;
   animation: stroke-offset 4s infinite normal;
+  will-change: stroke-dashoffset, stroke-dasharray, padding-top, padding-left;
 }
 .text-copy:nth-child(1) {
-  stroke: #360745;
+  stroke: #0f80e0;
   stroke-dashoffset: 7%;
 }
 .text-copy:nth-child(2) {
-  stroke: #d61c59;
+  stroke: #3baaf1;
   stroke-dashoffset: 14%;
 }
 .text-copy:nth-child(3) {
-  stroke: #e7d84b;
+  stroke: #f62c52;
   stroke-dashoffset: 21%;
 }
 .text-copy:nth-child(4) {
-  stroke: #efeac5;
+  stroke: #ff546a;
   stroke-dashoffset: 28%;
 }
 .text-copy:nth-child(5) {
-  stroke: #f8f8ff;
+  stroke: #e2e755;
   stroke-dashoffset: 35%;
 }
 
